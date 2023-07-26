@@ -1,11 +1,12 @@
 /*
 Oyunlar için Tahta Oluþturur ve WASD Tuþlarý ile Tahtada Gezinmeyi Saðlar
 */
+
 #ifndef TAHTA_H
 #define TAHTA_H
 #include <stdio.h>
 #include <stdlib.h>
-#include "lib/imlec.h" // https://github.com/seymenkonuk/Imlec-Kontrol-C
+#include "../lib/imlec.h" // https://github.com/seymenkonuk/Imlec-Kontrol-C
 
 void tahtaOlustur(int g, int y, int mod);   // Uzunluk Deðerlerine Göre Þekilli Tahta Oluþtur
 void tahtaGit(int x, int y);                // Tahtanýn Girilen Koordinatlarýna Ýmleci Götür
